@@ -15,7 +15,6 @@ class BankAccount
 
   def withdraw(amount)
     @balance -= amount
-
   end
 
   def verify?(id, pin)
