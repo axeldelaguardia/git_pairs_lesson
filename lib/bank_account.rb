@@ -10,11 +10,13 @@ class BankAccount
   end
 
   def deposit(amount)
+    #give me all the money
     @balance += amount
   end
 
   def withdraw(amount)
     @balance -= amount
+    #no wait don't take my money
   end
 
   def verify?(id, pin)
